@@ -4,13 +4,15 @@ import UIKit
 
 class ViewController: UIViewController {
     
- //  override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
- //      super.init(nibName: nil, bundle: nil)
- //  }
- //
-  //override func loadView() {
-  //    super.loadView()
-  //}
+    //  override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+    //      super.init(nibName: nil, bundle: nil)
+    //  }
+    let tableView = UITableView()
+    override func loadView() {
+        super.loadView()
+        view = tableView
+        
+    }
     
     override func viewDidLoad() {
         //func load in to memory
@@ -41,10 +43,10 @@ class ViewController: UIViewController {
     }
     
     deinit {
-
+        
     }
-
-
+    
+    
 }
 
 
