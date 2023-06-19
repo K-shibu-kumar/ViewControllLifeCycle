@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		894F24252A40157500F31D61 /* LIfeCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LIfeCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		894F24252A40157500F31D61 /* ViewControllLifeCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewControllLifeCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		894F24282A40157500F31D61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		894F242A2A40157500F31D61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		894F242C2A40157500F31D61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		894F24312A40157700F31D61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		894F24342A40157700F31D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		894F24362A40157700F31D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		894F243B2A40157700F31D61 /* LIfeCycleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LIfeCycleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		894F243B2A40157700F31D61 /* ViewControllLifeCycleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewControllLifeCycleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		894F243F2A40157700F31D61 /* LIfeCycleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIfeCycleTests.swift; sourceTree = "<group>"; };
-		894F24452A40157700F31D61 /* LIfeCycleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LIfeCycleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		894F24452A40157700F31D61 /* ViewControllLifeCycleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewControllLifeCycleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		894F24492A40157700F31D61 /* LIfeCycleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIfeCycleUITests.swift; sourceTree = "<group>"; };
 		894F244B2A40157700F31D61 /* LIfeCycleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIfeCycleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +89,9 @@
 		894F24262A40157500F31D61 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				894F24252A40157500F31D61 /* LIfeCycle.app */,
-				894F243B2A40157700F31D61 /* LIfeCycleTests.xctest */,
-				894F24452A40157700F31D61 /* LIfeCycleUITests.xctest */,
+				894F24252A40157500F31D61 /* ViewControllLifeCycle.app */,
+				894F243B2A40157700F31D61 /* ViewControllLifeCycleTests.xctest */,
+				894F24452A40157700F31D61 /* ViewControllLifeCycleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		894F24242A40157500F31D61 /* LIfeCycle */ = {
+		894F24242A40157500F31D61 /* ViewControllLifeCycle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 894F244F2A40157700F31D61 /* Build configuration list for PBXNativeTarget "LIfeCycle" */;
+			buildConfigurationList = 894F244F2A40157700F31D61 /* Build configuration list for PBXNativeTarget "ViewControllLifeCycle" */;
 			buildPhases = (
 				894F24212A40157500F31D61 /* Sources */,
 				894F24222A40157500F31D61 /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = LIfeCycle;
+			name = ViewControllLifeCycle;
 			productName = LIfeCycle;
-			productReference = 894F24252A40157500F31D61 /* LIfeCycle.app */;
+			productReference = 894F24252A40157500F31D61 /* ViewControllLifeCycle.app */;
 			productType = "com.apple.product-type.application";
 		};
-		894F243A2A40157700F31D61 /* LIfeCycleTests */ = {
+		894F243A2A40157700F31D61 /* ViewControllLifeCycleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 894F24522A40157700F31D61 /* Build configuration list for PBXNativeTarget "LIfeCycleTests" */;
+			buildConfigurationList = 894F24522A40157700F31D61 /* Build configuration list for PBXNativeTarget "ViewControllLifeCycleTests" */;
 			buildPhases = (
 				894F24372A40157700F31D61 /* Sources */,
 				894F24382A40157700F31D61 /* Frameworks */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				894F243D2A40157700F31D61 /* PBXTargetDependency */,
 			);
-			name = LIfeCycleTests;
+			name = ViewControllLifeCycleTests;
 			productName = LIfeCycleTests;
-			productReference = 894F243B2A40157700F31D61 /* LIfeCycleTests.xctest */;
+			productReference = 894F243B2A40157700F31D61 /* ViewControllLifeCycleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		894F24442A40157700F31D61 /* LIfeCycleUITests */ = {
+		894F24442A40157700F31D61 /* ViewControllLifeCycleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 894F24552A40157700F31D61 /* Build configuration list for PBXNativeTarget "LIfeCycleUITests" */;
+			buildConfigurationList = 894F24552A40157700F31D61 /* Build configuration list for PBXNativeTarget "ViewControllLifeCycleUITests" */;
 			buildPhases = (
 				894F24412A40157700F31D61 /* Sources */,
 				894F24422A40157700F31D61 /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				894F24472A40157700F31D61 /* PBXTargetDependency */,
 			);
-			name = LIfeCycleUITests;
+			name = ViewControllLifeCycleUITests;
 			productName = LIfeCycleUITests;
-			productReference = 894F24452A40157700F31D61 /* LIfeCycleUITests.xctest */;
+			productReference = 894F24452A40157700F31D61 /* ViewControllLifeCycleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 894F24202A40157500F31D61 /* Build configuration list for PBXProject "LIfeCycle" */;
+			buildConfigurationList = 894F24202A40157500F31D61 /* Build configuration list for PBXProject "ViewControllLifeCycle" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				894F24242A40157500F31D61 /* LIfeCycle */,
-				894F243A2A40157700F31D61 /* LIfeCycleTests */,
-				894F24442A40157700F31D61 /* LIfeCycleUITests */,
+				894F24242A40157500F31D61 /* ViewControllLifeCycle */,
+				894F243A2A40157700F31D61 /* ViewControllLifeCycleTests */,
+				894F24442A40157700F31D61 /* ViewControllLifeCycleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		894F243D2A40157700F31D61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 894F24242A40157500F31D61 /* LIfeCycle */;
+			target = 894F24242A40157500F31D61 /* ViewControllLifeCycle */;
 			targetProxy = 894F243C2A40157700F31D61 /* PBXContainerItemProxy */;
 		};
 		894F24472A40157700F31D61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 894F24242A40157500F31D61 /* LIfeCycle */;
+			target = 894F24242A40157500F31D61 /* ViewControllLifeCycle */;
 			targetProxy = 894F24462A40157700F31D61 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -502,7 +502,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LIfeCycle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LIfeCycle";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewControllLifeCycle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ViewControllLifeCycle";
 			};
 			name = Debug;
 		};
@@ -522,7 +522,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LIfeCycle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LIfeCycle";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewControllLifeCycle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ViewControllLifeCycle";
 			};
 			name = Release;
 		};
@@ -565,7 +565,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		894F24202A40157500F31D61 /* Build configuration list for PBXProject "LIfeCycle" */ = {
+		894F24202A40157500F31D61 /* Build configuration list for PBXProject "ViewControllLifeCycle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				894F244D2A40157700F31D61 /* Debug */,
@@ -574,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		894F244F2A40157700F31D61 /* Build configuration list for PBXNativeTarget "LIfeCycle" */ = {
+		894F244F2A40157700F31D61 /* Build configuration list for PBXNativeTarget "ViewControllLifeCycle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				894F24502A40157700F31D61 /* Debug */,
@@ -583,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		894F24522A40157700F31D61 /* Build configuration list for PBXNativeTarget "LIfeCycleTests" */ = {
+		894F24522A40157700F31D61 /* Build configuration list for PBXNativeTarget "ViewControllLifeCycleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				894F24532A40157700F31D61 /* Debug */,
@@ -592,7 +592,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		894F24552A40157700F31D61 /* Build configuration list for PBXNativeTarget "LIfeCycleUITests" */ = {
+		894F24552A40157700F31D61 /* Build configuration list for PBXNativeTarget "ViewControllLifeCycleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				894F24562A40157700F31D61 /* Debug */,
